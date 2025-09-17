@@ -18,7 +18,7 @@
 			</p>
 			<div class="flex flex-col sm:flex-row gap-4 justify-center">
 				<Button text="Contact Us" href="/contact" variant="primary" size="lg" />
-				<Button text="Learn More" href="/about" variant="outline" size="lg" />
+				<Button text="Learn More About Rare Roots Ohio" href="/about" variant="outline" size="lg" />
 			</div>
 		</div>
 	</div>

@@ -21,7 +21,7 @@
 		{#each navItems as item}
 			<a 
 				href={item.href} 
-				class="text-green-600 hover:text-green-900 transition-colors"
+				class="text-green-800 hover:text-green-900 transition-colors"
 			>
 				{item.label}
 			</a>
@@ -29,7 +29,7 @@
 	</div>
 	
 	<div class="md:hidden">
-		<Button text="Menu" className="text-green-600 hover:text-green-900" />
+		<Button text="Menu" className="text-green-800 hover:text-green-900" />
 	</div>
 </nav>
 
