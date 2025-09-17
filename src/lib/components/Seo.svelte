@@ -10,11 +10,11 @@
 	}
 
 	let {
-		title = 'Your Website',
-		website = 'yourdomain.com',
-		description = 'A modern website built with SvelteKit',
+		title = 'Rare Roots Ohio',
+		website = 'www.rarerootsohio.com',
+		description = 'A plant growing online website',
 		image = `https://${website}/og-image.png`,
-		keywords = 'sveltekit, website, modern'
+		keywords = 'plants, ohio, rarerootsohio'
 	}: Props = $props();
 </script>
 
