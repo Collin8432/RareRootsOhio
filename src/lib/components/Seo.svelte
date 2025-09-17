@@ -1,14 +1,21 @@
-<script>
-	// @ts-nochecks
+<script lang="ts">
 	import { page } from '$app/stores';
 
-	export let title = '';
-	export let website = 'rarerootsohio.com';
-	export let description =
-		'';
-	export let image = `https://${website}/profile-image.png`;
-	export let keywords =
-		'';
+	interface Props {
+		title?: string;
+		website?: string;
+		description?: string;
+		image?: string;
+		keywords?: string;
+	}
+
+	let {
+		title = 'Your Website',
+		website = 'yourdomain.com',
+		description = 'A modern website built with SvelteKit',
+		image = `https://${website}/og-image.png`,
+		keywords = 'sveltekit, website, modern'
+	}: Props = $props();
 </script>
 
 <svelte:head>

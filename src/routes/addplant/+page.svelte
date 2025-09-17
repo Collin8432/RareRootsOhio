@@ -1,5 +1,5 @@
 <script>
-    import { supabase } from '$lib/supabaseClient';
+    import { supabase } from '$lib/utils/supabaseClient';
 
     let auth = false;
     let password = '';
