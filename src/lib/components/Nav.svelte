@@ -29,7 +29,7 @@
 	</div>
 	
 	<div class="md:hidden">
-		<Button text="Menu" className="text-green-800 hover:text-green-900" />
+		<Button text="Menu" variant="outline" className="text-green-800 hover:text-green-900" />
 	</div>
 </nav>
 

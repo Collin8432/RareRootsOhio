@@ -17,7 +17,7 @@
 				Rare Roots Ohio brings healthy, local, and high quality plants grown with passion. Discover our collection of rare plants now!
 			</p>
 			<div class="flex flex-col sm:flex-row gap-4 justify-center">
-				<Button text="Contact Us" href="/contact" variant="primary" size="lg" />
+				<Button text="Contact Us" href="/contact" variant="outline" size="lg" />
 				<Button text="Learn More About Rare Roots Ohio" href="/about" variant="outline" size="lg" />
 			</div>
 		</div>
