@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self' *.rarerootsohio.com; img-src 'self' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.stripe.com *.stripe.com https://*.split.io *.split.io; connect-src vitals.vercel-insights.com;"
+          "value": "default-src 'self' *.rarerootsohio.com; img-src 'self' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.stripe.com *.stripe.com https://*.split.io *.split.io; connect-src vitals.vercel-insights.com; style-src 'self' 'unsafe-inline';"
         },
         {
           "key": "Strict-Transport-Security",
