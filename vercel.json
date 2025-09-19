@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https:; connect-src 'self' https://*.supabase.co; base-uri 'self'; require-trusted-types-for 'script';"
+          "value": "default-src 'self' *.rarerootsohio.com; img-src 'self' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.stripe.com *.stripe.com https://*.split.io *.split.io; connect-src vitals.vercel-insights.com;"
         },
         {
           "key": "Strict-Transport-Security",
