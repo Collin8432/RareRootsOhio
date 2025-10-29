@@ -38,13 +38,12 @@
 {#each plants as plant}
 	<div class="bg-white rounded-2xl shadow p-4 text-left max-w-sm">
 		<h2 class="font-semibold text-green-900 text-xl mb-2">{plant.name}</h2>
-		<p class="text-green-700 mb-2">{plant.description}</p>
 		<p class="text-green-800 font-medium mb-1">Price: ${plant.price}</p>
-		<p class="text-green-600 mb-1">Color: {plant.color}</p>
-		<p class="text-green-600 mb-1">Plant Care: {plant.plantcare}</p>
 		<p class="text-green-600">USDA Hardiness Zones: {plant.usdahardinesszone}</p>
         		{#if plant.image}
 			<img src="{plant.image}" alt="{plant.name}" class="w-full h-48 object-cover rounded-lg mb-4" />
+
+		<a href="/plants/{plant.name}" class="text-green-600 hover:text-green-700">View Plant</a>
 		{/if}
 	</div>
 {/each}
